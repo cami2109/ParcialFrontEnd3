@@ -1,6 +1,6 @@
-const Card = () => {
+const Card = ({cliente}) => {
   return (
-    <div>Hola,soy una tarjeta</div>
+    <div>Hola,{cliente.Nombre},tu color favorito es {cliente.Color}</div>
   )
 }
 
